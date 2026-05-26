@@ -1,13 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>flowcus</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Inter+Tight:wght@300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/src/index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>flowcus</title>
+</head>
+
+<body>
+  <nav class="flex items-center justify-between px-5 py-3 bg-bg-page">
+
+    <div class="flex items-center">
+      <img src="./src/assets/flowcus-logo-mark.svg" alt="Flowcus" class="h-4 w-auto">
+      <span class="font-display text-sm font-medium text-text-primary">Flowcus</span>
+    </div>
+
+    <h1 class="font-sans text-label font-semibold uppercase text-text-muted">TODAY</h1>
+
+    <button class="p-2 border border-border rounded-4xl" aria-label="Open menu">
+      <img src="./src/assets/menu-icon.svg" alt="" class="block h-3 w-3">
+    </button>
+
+  </nav>
+
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

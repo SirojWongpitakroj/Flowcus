@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-labelledby="title desc">
+  <title id="title">Flowcus wordmark</title>
+  <desc id="desc">Three damping wave peaks resolving into a straight horizontal line, with the word Flowcus set in Newsreader positioned on top of the line. The line both grounds the wordmark and represents the calm of arrived focus.</desc>
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&amp;display=swap');</style>
+  </defs>
+  <g fill="none" stroke="#D97539" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 2 34
+             C 5 34 5 12 8 12
+             C 14 12 14 51 20 51
+             C 26 51 26 22 32 22
+             C 38 22 38 41 44 41
+             C 50 41 50 31 56 31
+             C 60.5 31 60.5 34 65 34
+             L 220 34"/>
+  </g>
+  <text x="140" y="28"
+        text-anchor="middle"
+        font-family="'Newsreader', Georgia, serif"
+        font-size="32"
+        font-weight="500"
+        font-style="normal"
+        letter-spacing="-0.5"
+        fill="#1F1F1F"
+        style="font-variation-settings: 'opsz' 24;">Flowcus</text>
+</svg>
